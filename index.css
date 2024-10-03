@@ -217,9 +217,15 @@ p {
   align-items: center;
 }
 
-.container-about, .container-services {
+.container-about {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.container-services {
   padding-top: 50px;
-  padding-bottom: 110px;
+  padding-bottom: 30px;
   text-align: center;
 }
 
@@ -228,13 +234,19 @@ p {
 }
 
 
-
+h2 {
+  font-family: "Be Vietnam Pro", sans-serif;
+  color: #000000;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
 
 .service-title {
   font-family: "Be Vietnam Pro", sans-serif;
   color: #000000;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 600;
   margin-bottom: 10px;
 }
 
