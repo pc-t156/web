@@ -124,7 +124,7 @@ a {
   padding-top: 10px;
   padding-bottom: 0px;
   background: rgb(255, 255, 255);
-  background-image: url('/assets/hero.png') !important;
+  background-image: url('assets/hero.png') !important;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; 
