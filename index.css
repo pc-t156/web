@@ -124,7 +124,7 @@ a {
   padding-top: 10px;
   padding-bottom: 0px;
   background: rgb(255, 255, 255);
-  background-image: url('assets/hero.png') !important;
+  background-image: url('/assets/hero.png') !important;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; 
@@ -224,16 +224,10 @@ p {
 }
 
 .service {
-  background-color: rgb(255, 145, 2);
-  border-style: solid;
   margin: 0px;
 }
 
 
-
-.service-inner {
-  background-color: #26435E;
-}
 
 
 .service-title {
@@ -313,14 +307,14 @@ p {
 /* Media query for medium screens (768 - 991 pixels wide) */
 @media (min-width: 768px) and (max-width: 991px) {
   .footer-logo {
-    max-width: 40%;   
+    max-width: 50%;   
   }
 }
 
 /* Media query for small screens (less than 768 pixels wide) */
 @media (max-width: 767px) {
   .footer-logo {
-    max-width: 40%;
+    max-width: 50%;
   }
 }
 
